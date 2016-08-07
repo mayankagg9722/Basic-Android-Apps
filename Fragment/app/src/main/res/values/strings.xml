@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string-array name="name">
+        <item>cupcake</item>
+        <item>donut</item>
+        <item>eclair</item>
+        <item>gingerbead</item>
+        <item>honeycomb</item>
+        <item>icecream sandwitch</item>
+        <item>jellybean</item>
+        <item>kitkat</item>
+        <item>lolipop</item>
+        <item>marshmallow</item>
+    </string-array>
+</resources>
