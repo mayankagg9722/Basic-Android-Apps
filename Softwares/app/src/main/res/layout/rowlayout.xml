@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:paddingLeft="10dp"
+        android:paddingTop="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/img"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/img_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firefox"
+        android:paddingTop="40dp"
+        android:paddingLeft="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/textView"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView" />
+    <View
+        android:layout_alignBottom="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"
+        android:paddingTop="3dp">
+
+    </View>
+
+</RelativeLayout>
